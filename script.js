@@ -29,7 +29,7 @@ fetch(URL)
         modal.setAttribute("id", "popup-modal");
         const modalClose = document.createElement("a");
         modalClose.setAttribute("class", "modal-close");
-        modalClose.textContent = "X";
+        modalClose.innerHTML = `<i class="fas fa-times-circle"></i>`;
         const modalImg = document.createElement("div");
         modalImg.setAttribute("class", "modal-img");
         const image = document.createElement("img");

@@ -63,9 +63,8 @@
 }
 .modal-close {
   font-size: 20px;
-  // float: left;
   font-weight: 700;
-  color: #ffe81f;
+  color: rgb(32, 30, 30);
   font-size: 20px;
   // margin-top: -10px;
   transition: all 0.2s;
@@ -76,7 +75,7 @@
   right: 1.5rem;
 }
 .modal-close:hover {
-  color: #3b3b3b;
+  color: #ffe81f;
 }
 .modal-img {
   //   background-image: radial-gradient(#000, transparent);
