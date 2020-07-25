@@ -172,6 +172,23 @@ li + li {
   display: none;
 }
 
+.modal-close {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffe81f;
+  font-size: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: auto;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.modal-close:hover {
+  color: #3b3b3b;
+}
+
 .modal-img {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
