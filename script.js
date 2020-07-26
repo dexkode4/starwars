@@ -54,7 +54,6 @@ fetch(URL)
         const details = document.createElement("div");
         details.setAttribute("class", "details");
         const list = document.createElement("ul");
-        // const listItem = document.createElement("li");
 
         ///////    character bio info
         for (const property in user) {
