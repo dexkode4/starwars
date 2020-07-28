@@ -1,6 +1,6 @@
 import { User } from "./scripts/users.js";
 
-const URL = "https://swapi.dev/api/people";
+const URL = "https://swapi.dev/api/people/";
 let list = document.querySelector("ul");
 let modal = document.querySelector("#modal");
 

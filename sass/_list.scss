@@ -1,7 +1,7 @@
 ul {
   counter-reset: index;
   padding: 0;
-  width: 50%;
+  width: 60%;
   font-size: 4rem;
   color: #fff;
 }
@@ -17,7 +17,7 @@ li {
   box-sizing: border-box;
   cursor: pointer;
   transition: color 0.3s;
-  line-height: 1.5;
+  line-height: 1.2;
   &:hover {
     color: #ffe81f;
   }
